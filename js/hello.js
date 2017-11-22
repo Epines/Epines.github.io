@@ -59,8 +59,7 @@
             var a =ev.clientX-notes.offsetLeft;
             var b =ev.clientY-notes.offsetTop;
             notes.style.zIndex++;
-            console.log(a);
-            console.log(b);
+   
 
            
             notes.onmousemove =function (ev){
