@@ -1,0 +1,121 @@
+*{
+		margin: 0px;
+		padding: 0px;
+	}
+	button,input{
+		outline: none;
+		border:none;
+	}
+	body{
+		text-align: center;
+	}
+	.container{
+		position: absolute;
+		background-image: url("../images/bg.jpg");
+		/*height: 1000px;*/
+		width: 100%;
+		background-size: 100% 100%;
+		opacity: 0.6;
+		text-align: center;
+		/*border:1px solid transparent;*/
+		overflow: hidden;
+	}
+	h1{
+		position: absolute;
+		font-size: 50px;
+		margin-top: 50px;
+		letter-spacing: 20px;
+		opacity: 0.9;
+		margin-left: 40%;
+
+	}
+	#main{
+		position: relative;
+		height: 900px;
+		/*border:1px solid red;*/
+		
+	}
+
+	.nav{
+		position: absolute;
+		bottom: 0;
+		left:50%;
+		margin-left: -200px;
+	}
+	#inpText{
+		width: 350px;
+		height: 40px;
+		color: #000;
+		font-family: "微软雅黑";
+		padding: 0 5px;
+	}
+	#upNews{
+		height: 43px;
+		width: 50px;
+		user-select: none;
+
+	}
+	#upNews:hover{
+		background-color: #2E4381;
+		color: #fff;
+	}
+	#upNews:active{
+		box-shadow: 1px 1px 1px 1px #03050A;
+	}
+	.note{
+		position: absolute;
+		width: 400px;
+		height: 300px;
+		/*transform: rotate(30deg);*/
+
+		text-align: left;
+		word-wrap:break-word ;
+		padding: 5px;
+	}
+
+	/*.note:hover{
+		z-index: 999;
+	}*/
+	.pan{
+		position: absolute;
+		right: 40px;
+		bottom: 25px;
+		color: #fff;
+	}
+	.pan:hover{
+		font-weight: 800;
+		box-shadow: 1px 1px 1px 1px #FCF7F7;
+		cursor: pointer;
+		user-select: none;
+	}
+
+	.tips{
+		position: absolute;
+		right: 0;
+
+		bottom: 0px;
+		left:63%;
+		/*margin-left: -200px;*/
+		background-color: #fff;
+		width: 300px;
+		line-height: 40px;
+		/*display: inline-block;*/
+		background-color: #faf8f3;
+  		border: 1px solid #fbe2a0;
+  		/*z-index: 2;*/
+
+	}
+	.tips::before{
+		content: "";
+		background-color: #fff;
+		width: 8px;
+		height: 8px;
+		position: absolute;
+		top: 10px;
+		left: -5px;
+		transform: rotate(45deg);
+		background-color: #faf8f3;
+		border: 1px solid #fbe2a0;
+		/*z-index: 5;*/
+		border-style: none none solid solid;
+	}
