@@ -65,9 +65,7 @@
             notes.onmousemove =function (ev){
                 ev = ev || event;
                 // var moveE=window.event||arguments[0];
-                
-	            console.log(a);
-            	console.log(b);
+               
                 if(state==true){
                 	notes.style.left =ev.clientX-a+'px';
                 	notes.style.top =ev.clientY-b+'px';
