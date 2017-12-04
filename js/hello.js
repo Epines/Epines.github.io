@@ -135,7 +135,7 @@
 		// alert(screen.width);
 
 
-		var widthMax=screen.width-550;
+		var widthMax=screen.width-600;
 
 		notes.style.left=randomBox(30,widthMax)+"px";
 		notes.style.top=randomBox(120,500)+"px";
