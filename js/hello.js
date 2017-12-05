@@ -1,13 +1,22 @@
 	var inpText=document.getElementById("inpText");//文本框内容
 	var main=document.getElementById("main");//许愿墙纸区域
 	var container=document.getElementsByClassName("container")[0];
-	container.style.height=(screen.height-80)+"px";
+	// container.style.height=(screen.height-100)+"px";
+	// container.style.border="1px solid black";
 	// alert(screen.height);
 	// var nav=document.getElementsByClassName("nav")[0];
 
+	// main.style.border="1px solid black";
+	// main.style.backgroundColor="black";
+	// alert(screen.height);
+	if (window.innerHeight)
+		var winHeight = window.innerHeight;
+	else if ((document.body) && (document.body.clientHeight))
+		var winHeight = document.body.clientHeight;
+	// alert(winHeight);
 
-
-
+	main.style.height=winHeight*0.75+"px";
+	// alert(main.style.height);
 	// 如果发布内容为空
 	function ifNull(){
 		if(inpText.value=="")
@@ -59,13 +68,21 @@
             var a =ev.clientX-notes.offsetLeft;
             var b =ev.clientY-notes.offsetTop;
             notes.style.zIndex++;
+<<<<<<< HEAD
+=======
    
+>>>>>>> 5e366aa85785fc47c851aebd87519da2bf9314e4
 
            
             notes.onmousemove =function (ev){
                 ev = ev || event;
                 // var moveE=window.event||arguments[0];
+<<<<<<< HEAD
+                
+	    
+=======
                
+>>>>>>> 5e366aa85785fc47c851aebd87519da2bf9314e4
                 if(state==true){
                 	notes.style.left =ev.clientX-a+'px';
                 	notes.style.top =ev.clientY-b+'px';
@@ -135,8 +152,13 @@
 		// alert(screen.width);
 
 
+<<<<<<< HEAD
+		var widthMax=screen.width-550;
+		// alert(clientX);
+=======
 		var widthMax=screen.width-600;
 
+>>>>>>> 5e366aa85785fc47c851aebd87519da2bf9314e4
 		notes.style.left=randomBox(30,widthMax)+"px";
 		notes.style.top=randomBox(120,500)+"px";
 		// notes.style.transform="rotate("+randomAngle()+"deg)";
