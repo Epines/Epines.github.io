@@ -17,6 +17,7 @@
 		background-size: 100% 100%;
 		opacity: 0.6;
 		text-align: center;
+		height: 100%;
 		/*border:1px solid transparent;*/
 		overflow: hidden;
 	}
@@ -31,8 +32,8 @@
 	}
 	#main{
 		position: relative;
-		height: 900px;
 		/*border:1px solid red;*/
+		/*height: 80%；*/
 		
 	}
 
@@ -43,7 +44,7 @@
 		margin-left: -200px;
 	}
 	#inpText{
-		width: 350px;
+		width: 18vw;
 		height: 40px;
 		color: #000;
 		font-family: "微软雅黑";
@@ -64,8 +65,8 @@
 	}
 	.note{
 		position: absolute;
-		width: 400px;
-		height: 300px;
+		width: 23vw;
+		height: 30vh;
 		/*transform: rotate(30deg);*/
 
 		text-align: left;
@@ -95,14 +96,11 @@
 
 		bottom: 0px;
 		left:63%;
-		/*margin-left: -200px;*/
 		background-color: #fff;
-		width: 300px;
+		width: 20vw;
 		line-height: 40px;
-		/*display: inline-block;*/
 		background-color: #faf8f3;
   		border: 1px solid #fbe2a0;
-  		/*z-index: 2;*/
 
 	}
 	.tips::before{
