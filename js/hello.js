@@ -68,21 +68,20 @@
             var a =ev.clientX-notes.offsetLeft;
             var b =ev.clientY-notes.offsetTop;
             notes.style.zIndex++;
-<<<<<<< HEAD
-=======
+
+
    
->>>>>>> 5e366aa85785fc47c851aebd87519da2bf9314e4
+
 
            
             notes.onmousemove =function (ev){
                 ev = ev || event;
                 // var moveE=window.event||arguments[0];
-<<<<<<< HEAD
-                
+             
 	    
-=======
+
                
->>>>>>> 5e366aa85785fc47c851aebd87519da2bf9314e4
+
                 if(state==true){
                 	notes.style.left =ev.clientX-a+'px';
                 	notes.style.top =ev.clientY-b+'px';
@@ -152,13 +151,13 @@
 		// alert(screen.width);
 
 
-<<<<<<< HEAD
+
 		var widthMax=screen.width-550;
 		// alert(clientX);
-=======
+
 		var widthMax=screen.width-600;
 
->>>>>>> 5e366aa85785fc47c851aebd87519da2bf9314e4
+
 		notes.style.left=randomBox(30,widthMax)+"px";
 		notes.style.top=randomBox(120,500)+"px";
 		// notes.style.transform="rotate("+randomAngle()+"deg)";
